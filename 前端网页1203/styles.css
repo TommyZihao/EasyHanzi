@@ -1,0 +1,101 @@
+body, html {
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+}
+body {
+	padding-bottom: 80px;
+}
+* {
+	box-sizing: border-box;
+}
+
+input, button {
+	outline: none;
+}
+button, #target, .title {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+}
+
+button, #target {
+	text-shadow: 0 1px 1px white;
+}
+
+.title {
+	color: white;
+	background: #1abc9c;
+	padding: 15px 0;
+	margin: 0 0 30px;
+}
+
+#target {
+	border-radius: 10px;
+  	box-shadow: 0 0 8rpx 0 #bfbfbf;
+	clear: both;
+	width: 400px;
+	height: 400px;
+	margin: 80px auto;
+}
+
+.char-form {
+	margin: 0 0 20px;
+}
+
+.char-form button {
+	padding: 8px 5px;
+	line-height: 14px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.char-input {
+	font-size: 16px;
+	padding: 5px;
+	width: 33px;
+	text-align: center;
+}
+
+.actions {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.actions button {
+	display: block;
+	width: 97px;
+	height: 3rem;
+	border: 1px solid #1abc9c;
+	color: #1abc9c;
+	float: left;
+	border-radius: 10px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+.actions button:last-child {
+	margin-right: 0;
+}
+
+button {
+	background: none;
+	border: 1px solid #444;
+	color: #444;
+	cursor: pointer;
+	transition: all 300ms;
+}
+.update-btn {
+	width: 97px;
+	border: 1px solid #e74c3c;
+	color: #e74c3c;
+}
+
+button:hover {
+	color: #1e6cd2;
+	border: 1px solid #1e6cd2;
+	box-shadow: none;
+}
+.char-input {
+	width: 8rem;
+}

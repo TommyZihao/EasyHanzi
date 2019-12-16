@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="同济大学">
+	<meta name="description" content="汉字笔画小程序——让你秉笔直书。">
+	<meta name="author" content="同济大学王子工作室">
+	<title>汉字笔画</title>
+
+	<link rel="stylesheet" href="styles.css" />
+	<script src="js/polyfill.js"></script>
+</head>
+
+<body>
+
+	<h1 class="title">秉笔直书——汉字笔画小程序</h1>
+	<form class="js-char-form char-form">
+		<label>
+			输入汉字
+			<input type="text" class="js-char char-input" size="1" maxlength="1" value="我" />
+		</label>
+		<button type="submit" class="update-btn">更新</button>
+	</form>
+	<div class="actions">
+		<button class="showCharacter">显示笔画</button>
+		<button class="hideCharacter">隐藏笔画</button>
+		<button class="js-animate">播放动画</button>
+		<button class="js-quiz">临摹</button>
+	</div>
+
+	<div id="target">
+
+	</div>
+	<h1>秉笔直书——汉字笔画学习小程序</h1>
+	<h1>一句话介绍</h1>
+	<p>提供常用汉字笔画的即查即用、动画书写流程、交互式书写检查矫正。</p>
+	<p>帮助全球汉语学习者养成正确书写习惯，降低汉语学习门槛，传播中国文化。</p>
+	<p>提供微信小程序、网页、手机APP等使用方式。</p>
+	<h1>使用说明</h1>
+	<p>输入汉字，点击更新，即可看到笔画。</p>
+	<p>可以播放动画，逐步演示书写顺序，也可以交互式摹写与临写。</p>
+	<p>支持所有常见简体字、繁体字。</p>
+	<p>&nbsp;</p>
+	<h1>项目背景</h1>
+	<p>俗话说：“人生聪明写字始”。掌握好笔顺是写好一笔字的开始。</p>
+	<p>笔顺是学习汉语的第一关，也是写字基本功，然而，汉字数量繁杂、笔画各异，不易记忆，难倒了众多汉语初学者。很多学习汉语多年的在华留学生，虽然说着流利的汉语，却提笔难言。</p>
+	<p>甚至有些土生土长的中国人，写字的笔顺也是错误的。</p>
+	<p>例如：</p>
+	<p><strong>“匕”</strong>应该先写撇，后写竖弯钩。 </p>
+	<p> <strong>“火”</strong>应该先写上面两笔，即点和撇，再写人字。 </p>
+	<p>1965年1月30日中华人民共和国文化部和中国文字改革委员会发布的《印刷通用汉字字形表》和1988年3月国家语言文字工作委员会、中华人民共和国新闻出版署发布的《现代汉语通用字表》规定了5类基本笔画：横类、竖类、撇类、点类、折类。
+	</p>
+	<p>&nbsp;</p>
+	<p>随着各类汉语综艺节目、海外孔子学院的推广，来华留学生数量逐年增加，全球汉语教育呈现火热趋势。</p>
+	<p>世界上使用汉语的人数至少15亿 ，超过世界总人口的20%，是中国的官方语言，是新加坡的四种官方语言之一，亦是联合国六种工作语言之一。汉语也是全世界公认最难学的语言之一。</p>
+	<p> 2016年时，英当局耗资近8700万人民币投入到了在公立学校推进汉语教学的计划中。 </p>
+	<p> 早在十年前，日本就有630家大学开设了中文课程，而汉语学习的人数则超200万人，学习汉语已经成为日本学生必备的一项课程。汉语也是日本除了英语外的第二大外语。 </p>
+	<p>&nbsp;</p>
+	<h1>项目愿景</h1>
+	<p>中国大陆中小学校及港澳台简体字推广集构</p>
+	<p>在华留学生</p>
+	<p>一带一路沿线汉语学习者</p>
+	<p>全球汉语文化圈</p>
+	<p>讲好中国故事，传播中国文化，推动文化自信。</p>
+	<p>&nbsp;</p>
+	<h1>项目负责人</h1>
+	<p>同济大学开源软件协会 Itoua Prince Igor（刚果布留学生） </p>
+	<p>子豪兄 Maxoyed </p>
+	<p>&nbsp;</p>
+	<h1>参考资料</h1>
+	<p>Javascript 免费开源库 Hanzi Writer </p>
+	<p> 汉字数据来自 <a href='https://github.com/skishore/makemeahanzi'>Make Me a Hanzi</a> 项目, 提供 9000 多常用简体字和繁体字。 </p>
+	<p>&nbsp;</p>
+	<div>
+	</div>
+
+	<script type="application/javascript" src="js/hanzi-writer.min.js"></script>
+	<script type="application/javascript" src="js/test.js"></script>
+
+</body>
+
+</html>
