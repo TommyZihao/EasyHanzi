@@ -1,0 +1,143 @@
+{
+	"locale": "zh-CN",
+	"messages": {
+		"zh-CN": {
+			"default": {
+				"updateText": "更新文字",
+				"animation": "动画",
+				"traditional": "繁体",
+				"simplified": "简体",
+				"quiz": "我来写",
+				"playAudio": "朗读",
+				"changeSample": "点击下列图片切换示例文字",
+				"confirm": "确定",
+				"cancel": "取消",
+				"uploading": "正在上传",
+				"recognizing": "正在识别",
+				"uploadImageOverSize": "请上传小于4MB的图片",
+				"pageTitle": {
+					"index": "学写汉字",
+					"example": "示例文字",
+					"about": "关于我们",
+					"ocr": "拍照识字",
+					"translate": "机器翻译",
+					"tts": "文本转语音",
+					"asr": "语音识别",
+					"writer": "文字查看"
+				},
+				"ocr": {
+					"upload": "图片上传",
+					"recognize": "识别文字",
+					"result": "识别结果"
+				},
+				"translate": {
+					"english": "英文",
+					"pleaseInputEnglish": "请输入英文",
+					"translateToChinese": "翻译成中文"
+				},
+				"tts": {
+					"chinese": "中文",
+					"pleaseInputChinese": "请输入中文"
+				},
+				"asr": {
+					"startRecord": "开始录音",
+					"endRecord": "停止录音",
+					"playAudio": "播放录音",
+					"recognizeText": "识别文字"
+				}
+			}
+		},
+		"zh-TW": {
+			"default": {
+				"updateText": "更新文字",
+				"animation": "動畫",
+				"traditional": "繁體",
+				"simplified": "簡體",
+				"quiz": "我來寫",
+				"playAudio": "朗讀",
+				"changeSample": "點擊下列圖片切換示例文字",
+				"confirm": "確定",
+				"cancel": "取消",
+				"uploading": "正在上傳",
+				"recognizing": "正在識別",
+				"uploadImageOverSize": "請上傳小於4MB的圖片",
+				"pageTitle": {
+					"index": "學寫漢字",
+					"example": "示例文字",
+					"about": "關於我們",
+					"ocr": "拍照識字",
+					"translate": "機器翻譯",
+					"tts": "文本轉語音",
+					"asr": "語音識別",
+					"writer": "文字查看"
+				},
+				"ocr": {
+					"upload": "圖片上傳",
+					"recognize": "識別文字",
+					"result": "識別結果"
+				},
+				"translate": {
+					"english": "英文",
+					"pleaseInputEnglish": "請輸入英文",
+					"translateToChinese": "翻譯成中文"
+				},
+				"tts": {
+					"chinese": "中文",
+					"pleaseInputChinese": "請輸入中文"
+				},
+				"asr": {
+					"startRecord": "開始錄音",
+					"endRecord": "停止錄音",
+					"playAudio": "播放錄音",
+					"recognizeText": "識別文字"
+				}
+			}
+		},
+		"en-US": {
+			"default": {
+				"updateText": "Update Text",
+				"animation": "Animation",
+				"traditional": "Traditional",
+				"simplified": "Simplified",
+				"quiz": "Write Myself",
+				"playAudio": "Read",
+				"changeSample": "Click image to view Character",
+				"confirm": "Confirm",
+				"cancel": "Cancel",
+				"uploading": "Uploading",
+				"recognizing": "Recognizing",
+				"uploadImageOverSize": "Please upload picture smaller than 4MB",
+				"pageTitle": {
+					"index": "Easy Hanzi",
+					"example": "Example Character",
+					"about": "About Us",
+					"ocr": "OCR",
+					"translate": "Translate",
+					"tts": "Text To Speech",
+					"asr": "Speech Recognition",
+					"writer": "Character Viewer"
+				},
+				"ocr": {
+					"upload": "Image upload",
+					"recognize": "Recognize Text",
+					"result": "Result"
+				},
+				"translate": {
+					"english": "EN",
+					"pleaseInputEnglish": "Please input English",
+					"translateToChinese": "Translate to Chinese"
+				},
+				"tts": {
+					"chinese": "CN",
+					"pleaseInputChinese": "Please input Chinese"
+				},
+				"asr": {
+					"startRecord": "Record",
+					"endRecord": "Stop",
+					"playAudio": "Play",
+					"recognizeText": "Recognize"
+				}
+			}
+		}
+	}
+}

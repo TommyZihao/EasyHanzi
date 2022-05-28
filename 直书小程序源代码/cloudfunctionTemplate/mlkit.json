@@ -1,0 +1,16 @@
+[
+  {
+    "name": "机器翻译",
+    "value": {
+      "api": "translate",
+      "params": "Are you ok"
+    }
+  },
+  {
+    "name": "语音合成",
+    "value": {
+      "api": "tts",
+      "params": "你"
+    }
+  }
+]

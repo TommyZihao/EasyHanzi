@@ -1,0 +1,21 @@
+{
+  "name": "hanzi-writer-uni-app",
+  "version": "1.0.0",
+  "description": "<p style=\"text-align: center;\"><img src=\"https://image.weilanwl.com/uni/UniAppReadme.jpg\" alt=\"ColorUI简介\"></img></p>",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "5.1.1",
+    "hanzi-writer": "2.3.0",
+    "prettier": "^1.12.1",
+    "vue-i18n": "^8.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maxoyed <maxoyed@gmail.com>",
+  "license": "ISC"
+}
